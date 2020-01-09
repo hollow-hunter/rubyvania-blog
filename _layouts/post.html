@@ -1,0 +1,41 @@
+---
+layout: default
+locale: 'es'
+---
+<article class="blog-post px-3 py-5 p-md-5">
+  <div class="container">
+    <header class="blog-post-header">
+      <h2 class="title mb-2">
+        {{page.title}}
+      </h2>
+      <div class="meta mb-3">
+        <span class="date">
+          Publicado {{ page.date | timeago }}
+        </span>
+        <span class="time">
+          {{page.read_time}}
+        </span>
+        <span class="comment">
+          <a href="#"></a>
+        </span>
+      </div>
+    </header>
+    <div class="blog-post-body">
+      {{page.content}}
+    </div>
+
+    <nav class="blog-nav nav nav-justified my-5">
+			{% if page.previous != nil %}
+      <a class="nav-link-prev nav-item nav-link rounded-left" href="{{page.previous.url}}">
+        Anterior<i class="arrow-prev fas fa-long-arrow-alt-left"></i>
+      </a>
+			{% endif %}
+			{% if page.next != nil %}
+      <a class="nav-link-next nav-item nav-link rounded-right" href="{{page.next.url}}">
+        Siguiente<i class="arrow-next fas fa-long-arrow-alt-right"></i>
+      </a>
+			{% endif %}
+    </nav>
+  </div>
+  <!--//container-->
+</article>

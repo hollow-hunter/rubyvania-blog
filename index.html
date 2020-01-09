@@ -1,0 +1,52 @@
+---
+title: Inicio
+layout: default
+locale: es
+---
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center">
+		<h2 class="heading">Rubyvania - Un blog de programacion en el lenguaje mas elegante</h2>
+	</div>
+	<!--//container-->
+</section>
+<section class="blog-list px-3 py-5 p-md-5">
+	<div class="container">
+		{% for post in paginator.posts %}
+		<div class="item mb-5">
+			<div class="media">
+				<div class="media-body">
+					<h3 class="title mb-1">
+						<a href="{{post.url}}">{{post.title}}</a>
+					</h3>
+					<div class="meta mb-1">
+						<span class="date">
+							Publicado {{ post.date | timeago }}
+							</span>
+						<span class="time">{{post.read_time}}</span>
+						<span class="comment">
+							<a href="#"></a>
+						</span>
+					</div>
+					<div class="intro">{{post.description}}</div>
+					<a class="more-link" href="{{post.url}}">Leer mas &rarr;</a>
+				</div>
+				<!--//media-body-->
+			</div>
+			<!--//media-->
+		</div>
+		<!--//item-->
+		{% endfor %}
+		<nav class="blog-nav nav nav-justified my-5">
+			{% if paginator.previous_page != nil %}
+			<a class="nav-link-prev nav-item nav-link rounded-left" href="{{paginator.previous_page_path}}">
+				Siguientes<i class="arrow-prev fas fa-long-arrow-alt-left"></i>
+			</a>
+			{% endif %}
+			{% if paginator.next_page != nil %}
+			<a class="nav-link-next nav-item nav-link rounded-right" href="{{paginator.next_page_path}}">
+				Anteriores<i class="arrow-next fas fa-long-arrow-alt-right"></i>
+			</a>
+			{% endif %}
+		</nav>
+	</div>
+</section>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>{{page.title}}</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rubyvania Blog">
+  <meta name="author" content="Nelson Uribe">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+  <!-- FontAwesome JS-->
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+    integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
+    crossorigin="anonymous"></script>
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="/assets/scss/main.css">
+
+  {% for style in page.custom_style_list %}
+  <link rel="stylesheet" href="{{ style }}"></script>
+  {% endfor %}
+
+</head>
+
+<body>
+  {% include sidebar.html %}
+  <div class="main-wrapper">
+    {{ content }}
+    {% include footer.html %}
+  </div>
+
+  <!-- Javascript -->
+  <script src="/assets/plugins/jquery-3.3.1.min.js"></script>
+  <script src="/assets/plugins/popper.min.js"></script>
+  <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  {% for javascript in page.custom_javascript_list %}
+  <script src="{{ javascript }}"></script>
+  {% endfor %}
+
+</body>
+
+</html>
