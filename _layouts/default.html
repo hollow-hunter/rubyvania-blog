@@ -40,7 +40,9 @@
   <link rel="stylesheet" href="{{ style }}">
   </script>
   {% endfor %}
+  {% if jekyll.environment == "production" %}
   <script src="//s3-us-west-2.amazonaws.com/momently-static/loader/OiMttgAEARU_momently.js" name="momently-script"></script>
+  {% endif %}
 </head>
 
 <body>
