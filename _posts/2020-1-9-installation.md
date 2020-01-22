@@ -2,7 +2,6 @@
 title: Instalar Ruby en Windows
 layout: post
 read_time: 3 min.
-custom_style_list: ['/assets/css/fruity.css']
 locale: es
 ---
 Veremos como instalar Ruby en Windows a través de la herramienta llamada Ruby Installer, si estas aqui es porque ya habrás leído que tener Ruby en Windows no es tan sencillo como otros lenguajes de programación, asi que vayamos paso por paso.
