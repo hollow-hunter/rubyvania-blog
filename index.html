@@ -20,8 +20,8 @@ locale: es
 					</h3>
 					<div class="meta mb-1">
 						<span class="date">
-							Publicado {{ post.date | timeago }}
-							</span>
+							Publicado {{ post.date | date: '%Y-%m-%d' }}
+						</span>
 						<span class="time">{{post.read_time}}</span>
 						<span class="comment">
 							<a href="#"></a>
