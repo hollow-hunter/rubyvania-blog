@@ -1,7 +1,7 @@
 ---
 title: Clases y Objetos
 layout: post
-read_time: 10 min.
+read_time: 4 min.
 locale: es
 ---
 
