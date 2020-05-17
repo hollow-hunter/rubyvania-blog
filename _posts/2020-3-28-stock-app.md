@@ -6,6 +6,10 @@ locale: es
 ---
 Como mencionamos en nuestro post de instalación de Rails, este framework web es sencillo para desarrollar buenas aplicaciones, asi que en esta serie de posts iremos paso por paso para completar una aplicacion Rails no muy compleja.
 
+Para ver las otras partes de esta serie de posts podes usar la siguiente guia:
+- [Haciendo una aplicación en Rails - Parte 2](/2020/04/15/stock-app-2.html)
+- [Haciendo una aplicación en Rails - Parte 3](/2020/05/17/stock-app-3.html)
+
 ### Aplicación para Almacenes
 
 Desarrollaremos una aplicacion sencilla para registrar productos en almacenes, algo básico para comenzar un sistema de inventario. Estos serán nuestros modelos:
