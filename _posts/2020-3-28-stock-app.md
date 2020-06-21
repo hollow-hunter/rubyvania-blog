@@ -9,6 +9,7 @@ Como mencionamos en nuestro post de instalación de Rails, este framework web es
 Para ver las otras partes de esta serie de posts podes usar la siguiente guia:
 - [Haciendo una aplicación en Rails - Parte 2](/2020/04/15/stock-app-2.html)
 - [Haciendo una aplicación en Rails - Parte 3](/2020/05/17/stock-app-3.html)
+- [Haciendo una aplicación en Rails - Parte 4](/2020/06/21/stock-app-4.html)
 
 ### Aplicación para Almacenes
 
