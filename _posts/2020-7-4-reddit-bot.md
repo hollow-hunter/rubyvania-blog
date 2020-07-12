@@ -7,7 +7,8 @@ locale: es
 
 En este primer post veremos como hacer un simple bot para reddit, para que responda a comentarios con ciertos comandos.
 
-Este es el primer post de una serie donde crearemos bots todo el mes de Julio y al final veremos como publicarlos en heroku.
+Este es el primer post de una serie donde crearemos bots todo el mes de Julio y al final veremos como publicarlos en heroku. Podes ver los otros bots:
+- [Como hacer un bot para discord](/2020/07/12/discord-bot.html)
 
 ### Redd
 
