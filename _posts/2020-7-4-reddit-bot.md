@@ -11,9 +11,9 @@ Este es el primer post de una serie donde crearemos bots todo el mes de Julio y 
 
 ### Redd
 
-Al igual que muchas plataformas web, Reddit expone un API para la automatización de procesos, esta se puede consumir directamente con HTTP o (de la forma mas recomendada) con una librería wrapper que en nuestro caso sera [Redd](https://github.com/avinashbot/redd){target:____blank}, aunque la pagina de Github tiene un ejemplo bastante directo requiere ciertos datos que se deben obtener de la cuenta de reddit que sera el bot.
+Al igual que muchas plataformas web, Reddit expone un API para la automatización de procesos, esta se puede consumir directamente con HTTP o (de la forma mas recomendada) con una librería wrapper que en nuestro caso sera [Redd](https://github.com/avinashbot/redd){:target="____blank"}, aunque la pagina de Github tiene un ejemplo bastante directo requiere ciertos datos que se deben obtener de la cuenta de reddit que sera el bot.
 
-Asumo que ya tenes la cuenta de reddit así que ingresa al sitio y luego dirígete a la siguiente dirección [https://old.reddit.com/prefs/apps/](https://old.reddit.com/prefs/apps/){target:____blank} y veras un botón que dice 'crear otra aplicación' para crear un Id y Clave Secreta que necesitara nuestro bot, en el formulario te pedirá un nombre, puedes llamarlo como quieras; el tipo de aplicación, aquí elige 'script'; puedes rellenar lo que quieras en la descripción aunque no es requerida; y por ultimo en la uri de redireccion puedes usar http://localhost:3000 ya que se trata de un script local.
+Asumo que ya tenes la cuenta de reddit así que ingresa al sitio y luego dirígete a la siguiente dirección [https://old.reddit.com/prefs/apps/](https://old.reddit.com/prefs/apps/){:target="____blank"} y veras un botón que dice 'crear otra aplicación' para crear un Id y Clave Secreta que necesitara nuestro bot, en el formulario te pedirá un nombre, puedes llamarlo como quieras; el tipo de aplicación, aquí elige 'script'; puedes rellenar lo que quieras en la descripción aunque no es requerida; y por ultimo en la uri de redireccion puedes usar http://localhost:3000 ya que se trata de un script local.
 
 Cuando presiones el botón 'crear aplicación' podrás ver el id y clave secreta asignado
 ![reddit created](/assets/images/posts/reddit-bot/created.jpg){:.img-fluid}
@@ -46,6 +46,6 @@ Revisemos lo que realiza el codigo, primero creamos la sesion con todas las cred
 
 ### Conclusión
 
-Bots en reddit son bastantes requeridos para distintos objetivos; responder con memes, proveer información de APIs y hasta procesar videos. Solo dale un vistazo a [https://www.reddit.com/r/RequestABot/](https://www.reddit.com/r/RequestABot/){target:____blank} para saber lo que requieren.
+Bots en reddit son bastantes requeridos para distintos objetivos; responder con memes, proveer información de APIs y hasta procesar videos. Solo dale un vistazo a [https://www.reddit.com/r/RequestABot/](https://www.reddit.com/r/RequestABot/){:target="____blank"} para saber lo que requieren.
 
 Espero que haya sido de ayuda y comienza a desarrollar bots en reddit!!
