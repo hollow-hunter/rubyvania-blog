@@ -5,7 +5,7 @@ read_time: 5 min.
 locale: es
 ---
 
-Realizaremos un simple bot que twittear y retwitteara cualquier tweet que contenga el hashtag #rubvania
+Realizaremos un simple bot que twittear y retwitteara cualquier tweet que contenga el hashtag #rubyvania
 
 ### Cuenta de Desarrollador
 
