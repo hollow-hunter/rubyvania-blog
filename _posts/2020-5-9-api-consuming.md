@@ -31,7 +31,7 @@ def get(route)
 end
 {% endhighlight %}
 
-Recibiremos la ruta donde se realizara el GET, luego obtenemos el contenido de la respuesta y como casi todas las APIs responden en JSON (si preferis XML podes irte de mi blog ahora mismo) pasaremos el `body` directamente a la clase `JSON` para leer el contenido como un hash (podes leer mi post sobre JSON [aqui](/2020/04/26/json.html)).
+Recibiremos la ruta donde se realizara el GET, luego obtenemos el contenido de la respuesta y como casi todas las APIs responden en JSON (si preferis XML podes irte de mi blog ahora mismo) pasaremos el `body` directamente a la clase `JSON` para leer el contenido como un hash (podes leer mi post sobre JSON [aqui](/2020/04/26/json)).
 
 Antes de crear nuestro metodo para peticiones POST haremos un metodo auxiliar que mapeara la data que necesitamos enviar ya que el metodo `post` necesita la data en este formato `'key=value'`, asi que nuestro metodo auxiliar recibira un hash y lo convertira a dicho formato
 {% highlight ruby linenos %}

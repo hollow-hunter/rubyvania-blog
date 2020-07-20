@@ -1,2 +1,3 @@
 plugins: [jekyll-paginate, jekyll-timeago]
 paginate: 5
+permalink: pretty
