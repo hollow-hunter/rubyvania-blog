@@ -9,6 +9,7 @@ En este primer post veremos como hacer un simple bot para reddit, para que respo
 
 Este es el primer post de una serie donde crearemos bots todo el mes de Julio y al final veremos como publicarlos en heroku. Podes ver los otros bots:
 - [Como hacer un bot para discord](/2020/07/12/discord-bot)
+- [Como hacer un bot para twitter](/2020/07/18/twitter-bot)
 
 ### Redd
 

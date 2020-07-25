@@ -7,6 +7,10 @@ locale: es
 
 Realizaremos un simple bot que twittear y retwitteara cualquier tweet que contenga el hashtag #rubyvania
 
+Este es el ultimo post de la serie donde crearemos bots todo el mes de Julio y al final veremos como publicarlos en heroku. Podes ver los otros bots en la siguiente lista:
+- [Como hacer un bot para reddit](/2020/07/04/reddit-bot)
+- [Como hacer un bot para discord](/2020/07/12/discord-bot)
+
 ### Cuenta de Desarrollador
 
 Para poder desarrollar un bot en twitter necesitas aprobación de ellos, esto se realiza rellenando un [formulario](https://developer.twitter.com/en/apply-for-access){:target="____blank"} y debe ser aprobado manualmente por ellos. Tardara unos dias y te confirmaran por correo, te recomiendo responder a sus consultas con honestidad.

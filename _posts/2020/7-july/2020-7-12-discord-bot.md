@@ -9,6 +9,7 @@ Veremos como hacer un simple bot para discord y que haga matemáticas sencillas.
 
 Este es el segundo post de la serie donde crearemos bots todo el mes de Julio y al final veremos como publicarlos en heroku. Podes ver los otros bots en la siguiente lista:
 - [Como hacer un bot para reddit](/2020/07/04/reddit-bot)
+- [Como hacer un bot para twitter](/2020/07/18/twitter-bot)
 
 ### Preparación de la cuenta
 
