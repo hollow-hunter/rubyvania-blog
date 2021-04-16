@@ -41,3 +41,7 @@ $theme-colors: (
 /*************************** Theme Styles Section ****************************/
 @import "theme/styles.scss";
 @import "../css/fruity.css";
+
+pre code {
+  color: white;
+}
