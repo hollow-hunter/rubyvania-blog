@@ -113,6 +113,23 @@ class ProgrammingBlog < Blog
 end
 {% endhighlight %}
 
+##### Operadores
+
+Los operadores en Ruby funcionan como cualquier otro método, obviamente tenemos limitantes para no usar símbolos reservados, pero los mas comunes (+, -, <, *, etc.) están disponibles. Esta es la forma de declararlos
+{% highlight ruby linenos %}
+class Account
+  attr_reader :balance
+  def +(amount)
+    @balance += amount
+  end
+end
+
+# y ahora podemos hacer lo siguiente
+
+a = Account.new
+a + 300
+{% endhighlight %}
+
 ### Conclusión
 
 Al ser lenguaje "enteramente orientado objetos", comprender como funcionan las clases Ruby es esencial, podemos apreciar que la dinamicidad de Ruby se mantiene al crear variables de instancias sin tener que declararlas aparte, además que no tienen un tipo definido hasta que se le asigna un valor (como cualquier variable), asi mismo al ser un lenguaje dinámico no son necesarios los conceptos de clases abstractas e interfaces (lo cual hace mas sencillo la creación de mocks y stubs en pruebas unitarias).
