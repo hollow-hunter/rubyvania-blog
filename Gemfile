@@ -10,5 +10,5 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'jekyll-timeago'
 gem 'rake'
 
-gem "webrick", "~> 1.7"
+gem "webrick"
 gem "github-pages", "~> 223", group: :jekyll_plugins
