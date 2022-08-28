@@ -39,6 +39,10 @@ Con las migraciones aplicadas correctamente simplemente navega a las rutas que y
 
 ![production](/assets/images/posts/heroku-rails/app_running.png){:.img-fluid}
 
+### Actualización Agosto 2022
+
+Lamentablemente, Heroku dejara de ofrecer planes gratis, realizaré un nuevo post para publicar aplicaciones gratis en [fly.io](https://fly.io){:target="____blank"}
+
 ### Conclusión
 
 Obviamente nuestra aplicación aun es muy sencilla, no tenemos autenticación, estilos, estructura de paginas y un montón de cosas mas que iremos agregando en post futuros, pero cumplimos nuestro objetivo el cual es tener la aplicación publicada en internet todo completamente gratis y sin problemas. Podes leer mas en la [documentación de heroku](https://devcenter.heroku.com/categories/rails-support){:target="____blank"}
