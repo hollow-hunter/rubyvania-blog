@@ -41,7 +41,7 @@ Con las migraciones aplicadas correctamente simplemente navega a las rutas que y
 
 ### Actualización Agosto 2022
 
-Lamentablemente, Heroku dejara de ofrecer planes gratis, realizaré un nuevo post para publicar aplicaciones gratis en [fly.io](https://fly.io){:target="____blank"}
+Lamentablemente, Heroku dejara de ofrecer planes gratis, revisa mi post para [publicar aplicaciones gratis en fly.io](/2022/08/29/flyio).
 
 ### Conclusión
 
