@@ -70,7 +70,7 @@ Ahora veamos como usar realmente nuestra clase
 {% highlight ruby linenos %}
 require_relative 'api_client'
 client = ApiClient.new('api.github.com', 443)
-puts client.get('/users/uribenelson')
+puts client.get('/users/hollow-hunter')
 {% endhighlight %}
 
 ##### Headers
@@ -90,7 +90,7 @@ def get(route)
 end
 {% endhighlight %}
 
-Eso seria todo para cubrir las peticiones basicas, obviamente el tema puede ser mas complejo lidiando con timeouts, cache y otras cosas. Si queres ver o descargar la clase completa te dejo un enlace github [aqui](https://gist.github.com/UribeNelson/2a4bd95a3bd6790c874e59a03ee78793){:target="_blank"}
+Eso seria todo para cubrir las peticiones basicas, obviamente el tema puede ser mas complejo lidiando con timeouts, cache y otras cosas. Si queres ver o descargar la clase completa te dejo un enlace github [aqui](https://gist.github.com/hollow-hunter/2a4bd95a3bd6790c874e59a03ee78793){:target="_blank"}
 
 ### Conclusion
 
